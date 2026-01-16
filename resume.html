@@ -19,39 +19,33 @@
         </div>
       </div>
 
-<div class="hero">
-  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
-    <div>
-      <h1 style="margin:0 0 8px;">Resume</h1>
-      <p style="margin:0;">
-        View or download my resume.
-      </p>
-    </div>
+<main class="hero">
+  <h1 style="margin:0 0 8px;">Resume</h1>
+  <p style="margin:0 0 16px;">
+    View or download my resume.
+  </p>
 
-    <div class="btn-row" style="margin:0;">
-      <a class="btn primary" href="/assets/resume.pdf" target="_blank">Open Resume (PDF)</a>
-      <a class="btn" href="/assets/resume.pdf" download>Download</a>
-    </div>
+  <div class="btn-row" style="margin:0;">
+    <a class="btn primary" href="/assets/resume.pdf" target="_blank" rel="noopener">
+      Open Resume (PDF)
+    </a>
+    <a class="btn" href="/assets/resume.pdf" download>
+      Download
+    </a>
   </div>
 
-  <div style="
-    margin-top:16px;
-    border-radius:16px;
-    overflow:hidden;
-    background:#fff;
-    box-shadow: 0 18px 40px rgba(124,108,246,.16);
-  ">
-    <iframe
-      src="/assets/resume.pdf#view=FitH"
-      style="width:100%; height:900px; border:0;"
-      title="Resume PDF Preview">
-    </iframe>
+  <div class="grid" style="margin-top:18px; grid-template-columns: repeat(auto-fit, minmax(260px,1fr));">
+    <div class="card">
+      <h3 style="margin:0 0 6px;">Quick note</h3>
+      <p style="margin:0;">For best viewing, open the PDF in a new tab.</p>
+    </div>
+    <div class="card">
+      <h3 style="margin:0 0 6px;">File</h3>
+      <p style="margin:0;">Stored at <code>/assets/resume.pdf</code></p>
+    </div>
   </div>
+</main>
 </div>
-
-
-
-    </div>
 
     <footer class="footer">
       Designed & Built by <strong>Tejaswini K</strong>
